@@ -17,7 +17,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Michael's World</title>
     <meta name="description" content="The HTML5 Herald" />
     <meta name="author" content="SitePoint" />
@@ -26,12 +26,20 @@
   </head>
 
   <body>
-    <h1>Welcome Stranger!</h1>
-    <h2>Thanks for Visiting my site</h2>
-    <p>
-      Hi, and welcome to my site. My name is Michael Duisenberg. I am a Software
-      Develement Student at Grand Canyon University. My goal is to be a Full
-      Stack Web Developer
-    </p>
+    <nav class="navbar">
+      <ul class="link-group">
+        <li class="link active"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#">Projects</a></li>
+        <li class="link"><a href="#">About Me</a></li>
+        <li class="link"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+	
+	<section class="welcome-message active">
+    <h1 class="hero-message">hello, i am <br> Michael</h1>
+    <img src="resources/Michael Duisenberg.jpg" class="me-img" alt="">
+</section>
+
+   
   </body>
 </html>
